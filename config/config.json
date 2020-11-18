@@ -1,0 +1,13 @@
+{
+    "development" : {
+        "PORT" : 3000,
+        "MONGODB_URI": "mongodb+srv://krishakkart:JBFwcVLXigGZ5sBL@e-commerce-0kijf.mongodb.net/Krishakkart?retryWrites=true&w=majority",
+        "JWT_SECRET": "JBFwcVLXigGZ5sBL"
+    },
+
+    "production" : {
+        "PORT" : 80,
+        "MONGODB_URI": "mongodb+srv://krishakkart:JBFwcVLXigGZ5sBL@e-commerce-0kijf.mongodb.net/Krishakkart?retryWrites=true&w=majority",
+        "JWT_SECRET": "JBFwcVLXigGZ5sBL"
+    }
+}
